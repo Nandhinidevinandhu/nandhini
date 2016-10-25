@@ -7,7 +7,7 @@ printf("Enter the value of num1 and num2 \n");
 scanf("%d %d", &num1, &num2);
 if (num2 < 2)
 {
-printf("There are no primes upto %d\n", num2);
+printf("0");
 exit(0);
 }
 temp = num1;
